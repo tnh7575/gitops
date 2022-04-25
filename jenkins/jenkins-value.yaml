@@ -582,13 +582,13 @@ agent:
   enabled: true
   defaultsProviderTemplate: ""
   # URL for connecting to the Jenkins contoller
-  jenkinsUrl:
+  jenkinsUrl: "http://jenkins:80"
   # connect to the specified host and port, instead of connecting directly to the Jenkins controller
-  jenkinsTunnel:
+  jenkinsTunnel: "jenkins-agent:50000"
   kubernetesConnectTimeout: 5
   kubernetesReadTimeout: 15
   maxRequestsPerHostStr: "32"
-  namespace:
+  namespace: "default"
   image: "jenkins/inbound-agent"
   tag: "4.11.2-4"
   workingDir: "/home/jenkins/agent"
@@ -794,7 +794,10 @@ networkPolicy:
   # You can allow agents to connect from both within the cluster (from within specific/all namespaces) AND/OR from a given external IP range
   internalAgents:
     allowed: true
-    podLabels: {}
+    podLabels: 
+      - key: "jenkins/jenkins-jenkins-slave"
+        value: "true"
+    serverUrl: "https://kubernetes.default"
     namespaceLabels: {}
       # project: myproject
   externalAgents: {}
