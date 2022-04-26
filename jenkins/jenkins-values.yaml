@@ -32,6 +32,8 @@ controller:
     limits:
       cpu: "2000m"
       memory: "4096Mi"
+  javaOpts: ""    
+  jenkinsOpts: ""
   usePodSecurityContext: true
   runAsUser: 1000
   fsGroup: 1000
