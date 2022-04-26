@@ -43,7 +43,7 @@ controller:
     allowPrivilegeEscalation: false
   servicePort: 8080
   targetPort: 8080
-  serviceType: ClusterIP
+  serviceType: LoadBalancer
   serviceExternalTrafficPolicy:
   serviceAnnotations: {}
   statefulSetLabels: {}
