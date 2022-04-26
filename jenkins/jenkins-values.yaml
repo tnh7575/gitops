@@ -272,12 +272,12 @@ controller:
 agent:
   enabled: true
   defaultsProviderTemplate: ""
-  jenkinsUrl:
-  jenkinsTunnel:
+  jenkinsUrl: "http://jenkins:8080"
+  jenkinsTunnel: "jenkins-agent:50000"
   kubernetesConnectTimeout: 5
   kubernetesReadTimeout: 15
   maxRequestsPerHostStr: "32"
-  namespace:
+  namespace: "default"
   image: "jenkins/inbound-agent"
   tag: "4.11.2-4"
   workingDir: "/home/jenkins/agent"
