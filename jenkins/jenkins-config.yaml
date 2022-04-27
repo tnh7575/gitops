@@ -68,7 +68,7 @@ jenkins:
   - "jenkins.diagnostics.RootUrlNotSetMonitor"
   - "jenkins.security.UpdateSiteWarningsMonitor"  
   labelAtoms:
-  - name: "controller"
+  - name: "master"
   markupFormatter: "plainText"
   mode: NORMAL
   myViewsTabBar: "standard"
