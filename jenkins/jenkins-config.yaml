@@ -6,7 +6,7 @@ jenkins:
     projectMatrix:
     permissions:
       - "Overall/Read:Authenticated Users"
-      - "Overall/Administer:tnh"
+      - "Overall/Administer:trustnhope"
     loggedInUsersCanDoAnything:
       allowAnonymousRead: false
   clouds:
