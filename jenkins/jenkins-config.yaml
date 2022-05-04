@@ -7,8 +7,6 @@ jenkins:
     permissions:
       - "Overall/Read:Authenticated Users"
       - "Overall/Administer:trustnhope"
-    loggedInUsersCanDoAnything:
-      allowAnonymousRead: false
   clouds:
   - kubernetes:
       containerCap: 10
