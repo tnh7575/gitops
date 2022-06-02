@@ -2,7 +2,6 @@ jenkins:
   agentProtocols:
   - "JNLP4-connect"
   - "Ping"
-authorizationStrategy:
   authorizationStrategy:
     loggedInUsersCanDoAnything:
       allowAnonymousRead: false
