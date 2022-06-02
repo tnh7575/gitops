@@ -5,7 +5,14 @@ jenkins:
   authorizationStrategy:
     projectMatrix:
       permissions:
-        - "Overall/Read:Authenticated Users"
+        - "Overall/Read:woos"
+        - "Overall/Read:cosiw"
+        - "Overall/Read:mekemeke94"
+        - "Overall/Read:dudwktl5"
+        - "Overall/Read:tyney1"
+        - "Overall/Read:hnookim8201"
+        - "Overall/Read:godmin66"
+        - "Overall/Read:rkddkwlcptm"
         - "Overall/Administer:trustnhope"
   clouds:
   - kubernetes:
