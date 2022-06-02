@@ -2,11 +2,6 @@ jenkins:
   agentProtocols:
   - "JNLP4-connect"
   - "Ping"
-  authorizationStrategy:
-    projectMatrix:
-    permissions:
-      - "Overall/Read:Authenticated Users"
-      - "Overall/Administer:trustnhope"
   clouds:
   - kubernetes:
       containerCap: 10
