@@ -3,8 +3,10 @@ jenkins:
   - "JNLP4-connect"
   - "Ping"
   authorizationStrategy:
-    loggedInUsersCanDoAnything:
-      allowAnonymousRead: false
+    projectMatrix:
+      permissions:
+        - "Overall/Read:Authenticated Users"
+        - "Overall/Administer:trustnhope"
   clouds:
   - kubernetes:
       containerCap: 10
@@ -81,7 +83,7 @@ jenkins:
   remotingSecurity:
     enabled: true
   scmCheckoutRetryCount: 0
-  securityRealm: "legacy"
+  securityRealm: "hudsonprivate"
   slaveAgentPort: 50000
   updateCenter:
     sites:
