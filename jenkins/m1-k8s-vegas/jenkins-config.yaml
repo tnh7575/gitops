@@ -4,7 +4,7 @@ jenkins:
   - "Ping"
   authorizationStrategy:
     loggedInUsersCanDoAnything:
-      allowAnonymousRead: false  
+      allowAnonymousRead: false
   clouds:
   - kubernetes:
       containerCap: 10
@@ -26,7 +26,7 @@ jenkins:
           envVars:
           - envVar:
               key: "JENKINS_URL"
-              value: "http://m-k8s.trustnhope.com"
+              value: "http://m1-k8s-v.vegas-solution.com"
           image: "jenkins/inbound-agent:4.3-4"
           livenessProbe:
             failureThreshold: 0
@@ -81,9 +81,7 @@ jenkins:
   remotingSecurity:
     enabled: true
   scmCheckoutRetryCount: 0
-  securityRealm:
-    local:
-      allowsSignup: false
+  securityRealm: "legacy"
   slaveAgentPort: 50000
   updateCenter:
     sites:
