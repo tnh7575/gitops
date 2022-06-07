@@ -81,9 +81,7 @@ jenkins:
   remotingSecurity:
     enabled: true
   scmCheckoutRetryCount: 0
-  securityRealm:
-    local:
-      allowsSignup: false
+  securityRealm: "legacy"
   slaveAgentPort: 50000
   updateCenter:
     sites:
