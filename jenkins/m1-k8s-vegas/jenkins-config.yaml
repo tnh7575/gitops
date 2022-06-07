@@ -26,7 +26,7 @@ jenkins:
           envVars:
           - envVar:
               key: "JENKINS_URL"
-              value: "http://m-k8s.trustnhope.com"
+              value: "http://222.122.132.131"
           image: "jenkins/inbound-agent:4.3-4"
           livenessProbe:
             failureThreshold: 0
