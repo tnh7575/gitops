@@ -13,6 +13,7 @@ jenkins:
         - "Overall/Read:hnookim8201"
         - "Overall/Read:godmin66"
         - "Overall/Read:rkddkwlcptm"
+        - "Overall/Read:shjhwoo"
         - "Overall/Administer:trustnhope"
   clouds:
   - kubernetes:
