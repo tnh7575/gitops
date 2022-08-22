@@ -7,7 +7,7 @@ jenkins:
       permissions:
         - "Overall/Read:woos"
         - "Overall/Read:cosiw"
-        - "Overall/Read:mekemeke94"
+        - "Overall/Read:thth3194"
         - "Overall/Read:dudwktl5"
         - "Overall/Read:tyney1"
         - "Overall/Read:hnookim8201"
@@ -15,7 +15,12 @@ jenkins:
         - "Overall/Read:rkddkwlcptm"
         - "Overall/Read:shjhwoo"
         - "Overall/Read:tls1641"
-        - "Overall/Read:leepanho"
+        - "Overall/Read:josm9"
+        - "Overall/Read:tjsdk0112"
+        - "Overall/Read:wlgns288"
+        - "Overall/Read:yngeun22"
+        - "Overall/Read:yumkim"
+        - "Overall/Read:hspost"
         - "Overall/Administer:trustnhope"
   clouds:
   - kubernetes:
