@@ -21,6 +21,7 @@ jenkins:
         - "Overall/Read:yngeun22"
         - "Overall/Read:yumkim"
         - "Overall/Read:hspost"
+        - "Overall/Read:jeminkim"
         - "Overall/Administer:trustnhope"
   clouds:
   - kubernetes:
