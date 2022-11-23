@@ -21,8 +21,7 @@ jenkins:
         - "Overall/Read:hspost"
         - "Overall/Read:seonjuu"
         - "Overall/Read:shje96"
-        - "Overall/Read:asketeddy"
-        - "Overall/Read:convert"        
+        - "Overall/Read:asketeddy"    
         - "Overall/Administer:trustnhope"
   clouds:
   - kubernetes:
