@@ -2,9 +2,27 @@ jenkins:
   agentProtocols:
   - "JNLP4-connect"
   - "Ping"
-  authorizationStrategy:
-    loggedInUsersCanDoAnything:
-      allowAnonymousRead: false
+  authorizationStrategy:  
+    projectMatrix:
+      permissions:
+        - "Overall/Read:woos"
+        - "Overall/Read:cosiw"
+        - "Overall/Read:thth3194"
+        - "Overall/Read:dudwktl5"
+        - "Overall/Read:tyney1"
+        - "Overall/Read:hnookim8201"
+        - "Overall/Read:rkddkwlcptm"
+        - "Overall/Read:shjhwoo"
+        - "Overall/Read:tls1641"
+        - "Overall/Read:josm9"
+        - "Overall/Read:tjsdk0112"
+        - "Overall/Read:wlgns288"
+        - "Overall/Read:yngeun22"
+        - "Overall/Read:hspost"
+        - "Overall/Read:seonjuu"
+        - "Overall/Read:shje96"
+        - "Overall/Read:asketeddy"    
+        - "Overall/Administer:trustnhope"
   clouds:
   - kubernetes:
       containerCap: 10
@@ -81,7 +99,9 @@ jenkins:
   remotingSecurity:
     enabled: true
   scmCheckoutRetryCount: 0
-  securityRealm: "legacy"
+  securityRealm:
+    local:
+      allowsSignup: false
   slaveAgentPort: 50000
   updateCenter:
     sites:
